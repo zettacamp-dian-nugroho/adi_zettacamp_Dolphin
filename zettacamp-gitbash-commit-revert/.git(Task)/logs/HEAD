@@ -1,0 +1,5 @@
+0000000000000000000000000000000000000000 3bf2755fe8b88e9607f11ba452c2e27d7ed8474c zettacamp-dian-nugroho <dian.nugroho@zettacamp.pro> 1692602114 +0700	commit (initial): [Initialization] Files & Directory Creation
+3bf2755fe8b88e9607f11ba452c2e27d7ed8474c 7110b73b3138d4ba6d7625942b795811f5858107 zettacamp-dian-nugroho <dian.nugroho@zettacamp.pro> 1692602185 +0700	commit: [UI] Update Index HTML to have tab title and body
+7110b73b3138d4ba6d7625942b795811f5858107 31f681ab14afac2aa4f72613224621e918e34dc8 zettacamp-dian-nugroho <dian.nugroho@zettacamp.pro> 1692602393 +0700	commit: [UI] Update Index HTML and Style.css to have red color on text <h1>
+31f681ab14afac2aa4f72613224621e918e34dc8 b30a3e50442688214f69f91d8df338efd678c5ca zettacamp-dian-nugroho <dian.nugroho@zettacamp.pro> 1692602425 +0700	revert: Revert "[UI] Update Index HTML and Style.css to have red color on text <h1>"
+b30a3e50442688214f69f91d8df338efd678c5ca f3e936d6499b2625aaf04a7f5030a4fa615e9b81 zettacamp-dian-nugroho <dian.nugroho@zettacamp.pro> 1692602512 +0700	commit: [Structure] Add gitignore file
