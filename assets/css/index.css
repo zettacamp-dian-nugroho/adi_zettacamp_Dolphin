@@ -1,0 +1,115 @@
+* {
+    font: 1rem Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.pd-1{
+    padding: 1rem;
+}
+
+.mg-1{
+    margin: 1rem;
+}
+
+.pt-1 {
+    padding-top: 1rem;
+}
+
+.pr-1 {
+    padding-right: 1rem;
+}
+
+.pb-1 {
+    padding-bottom: 1rem;
+}
+
+.pl-1 {
+    padding-left: 1rem;
+}
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.mr-1 {
+    margin-right: 1rem;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+.ml-1 {
+    margin-left: 1rem;
+}
+
+.sticky-header{
+    position: fixed;
+}
+
+header,
+footer {
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: #bde0fe;
+}
+
+footer {
+    background-color: #a2d2ff !important;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    margin: 0 7em 0 7em;
+    justify-content: center;
+}
+
+main article {
+    justify-content: inherit;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main article div {
+    width: 250px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    border-radius: 1em;
+    border: 3px solid #cdb4db;
+}
+
+main article div * {
+    padding: 1em;
+}
+
+main article div h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+main article div p {
+    text-align: justify;
+}
+
+main article div button {
+    padding: 0.5em 1em 0.5em 1em;
+    background-color: #ffc8dd;
+    border: 2px solid #ffafcc;
+    border-radius: 1em;
+}
+
+main article div img {
+    height: 175px;
+}

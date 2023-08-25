@@ -1,0 +1,16 @@
+body{
+    overflow: hidden;
+}
+#container{
+    display: flex;
+    height: 100vh;
+}
+#container article{
+    width: 450px;
+    height: 90vh;
+    overflow: auto;
+}
+#container article div{
+    width: inherit;
+    border-radius: 0;
+}
