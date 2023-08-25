@@ -1,0 +1,123 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Input | ZettaCamp Batch 4</title>
+    <style>
+      td {
+        text-align: left;
+        vertical-align: top;
+      }
+      textarea{
+        resize: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li><a href="index.html">My Profile</a></li>
+        <li><a href="forminput.html">Form Input</a></li>
+        <li><a href="shoplist.html">Shop List</a></li>
+      </ul>
+    </header>
+    <hr />
+    <main>
+      <article>
+        <form action="">
+          <table>
+            <tbody>
+              <tr>
+                <td><label for="inputNamadepan"> Nama Depan</label></td>
+                <td>:</td>
+                <td><input type="text" id="inputNamaDepan" placeholder="Masukan nama depan kamu" /></td>
+              </tr>
+              <tr>
+                <td><label for="inputNamaBelakang">Nama Belakang</label></td>
+                <td>:</td>
+                <td><input type="text" id="inputNamaBelakang" placeholder="Masukan nama belakang kamu" /></td>
+              </tr>
+              <tr>
+                <td><label for="tanggal-lahir">Tanggal Lahir</label></td>
+                <td>:</td>
+                <td><input type="date" id="tanggal-lahir" /></td>
+              </tr>
+              <tr>
+                <td><label for="inputBiografi">Biografi</label></td>
+                <td>:</td>
+                <td><textarea id="inputBiografi" placeholder="Cerita tentangmu" cols="30" rows="10"></textarea></td>
+              </tr>
+              <tr>
+                <td><label for="jenis-kelamin"> Jenis Kelamin</label></td>
+                <td>:</td>
+                <td>
+                  <input type="radio" name="jenis-kelamin" id="laki" />
+                  <label for="laki">Laki - Laki</label>
+                  <input type="radio" name="jenis-kelamin" id="perempuan" />
+                  <label for="laki">Perempuan</label>
+                </td>
+              </tr>
+              <tr>
+                <td><label for="email">Email</label></td>
+                <td>:</td>
+                <td><input type="email" id="email" placeholder="example@example.com" required /></td>
+              </tr>
+              <tr>
+                <td><label for="password">Password</label></td>
+                <td>:</td>
+                <td><input type="password" id="password" required /></td>
+              </tr>
+              <tr>
+                <td><label for="phone">No. HP</label></td>
+                <td>:</td>
+                <td><input type="tel" id="phone" placeholder="08xxxxxxxxxx" /></td>
+              </tr>
+              <tr>
+                <td><label for="age">Umur</label></td>
+                <td>:</td>
+                <td><input type="number" id="age" min="1" max="120" /></td>
+              </tr>
+              <tr>
+                <td><label for="url">Link Media Sosial</label></td>
+                <td>:</td>
+                <td><input type="url" id="url" min="1" max="120" /></td>
+              </tr>
+              <tr>
+                <td><label for="color">Warna Kesukaan</label></td>
+                <td>:</td>
+                <td><input type="color" id="color" /></td>
+              </tr>
+              <tr>
+                <td><label for="file">Input File</label></td>
+                <td>:</td>
+                <td><input type="file" id="file" /></td>
+              </tr>
+              <tr>
+                <td><label for="buah">Buah Kesukaan</label></td>
+                <td>:</td>
+                <td>
+                  <select id="buah">
+                    <option value="apel">Apel</option>
+                    <option value="apel">Jeruk</option>
+                    <option value="apel">Papaya</option>
+                  </select>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </form>
+      </article>
+    </main>
+    <hr />
+    <footer>
+      <center>
+        <small>
+          <span>&copy; <a href="https://dianadi021.github.io/">Dian Adi Nugroho</a></span>
+        </small>
+      </center>
+    </footer>
+  </body>
+</html>
