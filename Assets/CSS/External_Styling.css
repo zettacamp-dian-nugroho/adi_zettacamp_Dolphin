@@ -1,0 +1,8 @@
+p span:first-child{
+    font-size: xx-large;
+    color: blue;
+}
+p span:last-child{
+    font-size: xx-small;
+    color: orange;
+}

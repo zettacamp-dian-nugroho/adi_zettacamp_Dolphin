@@ -1,0 +1,55 @@
+/** @format */
+
+* {
+  color: grey;
+  font: 12px 'Arial';
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  color: black;
+  font-size: xx-large;
+}
+
+article.content {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.cards {
+  margin: 1em 0em 1em 0em;
+  border: 1px solid black;
+  padding: 1em 2em 1em 2em;
+  width: min-content;
+  text-align: center;
+  vertical-align: top;
+  width: 15%;
+  height: auto;
+  color: black;
+  font: 14px 'Times New Roman';
+}
+
+.cards p {
+  font: inherit;
+  color: inherit;
+}
+
+.cards h2{
+  font: xx-large 'Times New Roman';
+  color: inherit;
+}
+
+.cards:first-child {
+  border-radius: 1em 0 0 1em;
+}
+
+.cards:last-child {
+  border-radius: 0 1em 1em 0;
+}
+
+.cards img {
+  height: 100px;
+}
