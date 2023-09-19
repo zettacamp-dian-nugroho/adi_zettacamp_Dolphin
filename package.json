@@ -1,0 +1,14 @@
+{
+  "name": "book_purchasing-api",
+  "version": "1.0.0",
+  "description": "Book Purchasing API Express.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dianadi021",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
