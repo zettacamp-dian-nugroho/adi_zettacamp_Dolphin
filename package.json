@@ -1,0 +1,11 @@
+{
+  "name": "day-18",
+  "version": "1.0.0",
+  "description": "debugging",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ."
+  },
+  "author": "dianadi021",
+  "license": "ISC"
+}
