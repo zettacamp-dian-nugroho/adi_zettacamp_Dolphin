@@ -1,0 +1,21 @@
+{
+  "namePembeli": "adi",
+  "moneyPembeli": 1000,
+  "jumlahBeli": 1,
+  "nilaiDiscount": 20,
+  "nilaiPajak": 10,
+  "namaBuku": "Koala Kumal",
+  "namaPenulis": "Raditya Dika",
+  "hargaBuku": 54545,
+  "stockBuku": 5,
+  "durasiCredit": 3,
+
+  "biayaTambahan": 1500,
+  "isAdditionalPrice": false,
+  "tambahanPadaBulanKe": 3,
+
+  "datetopay": 2,
+  "getMap": "parent_map",
+  "isShowAll": false,
+  "isInsertData": false
+}
