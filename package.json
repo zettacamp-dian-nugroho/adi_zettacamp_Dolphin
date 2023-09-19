@@ -1,0 +1,16 @@
+{
+  "name": "day-26",
+  "version": "1.0.0",
+  "description": "Endpoint lagu",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node ."
+  },
+  "author": "dianadi021",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
