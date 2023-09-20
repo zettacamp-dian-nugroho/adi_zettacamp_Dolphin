@@ -1,0 +1,43 @@
+[
+  {
+    "book_title": "Koala Kumal",
+    "book_genre": ["Komedi"],
+    "author": "Raditya Dika",
+    "publisher_name": "Gagasmedia",
+    "price_of_book": 54000,
+    "stock_of_book": 100
+  },
+
+  // /update-bookshelf/:id'
+  {
+    "book_genre": "Komedi"
+  },
+
+  // /update-bookshelf/publisher/:id/:publisher
+  {
+    "publisher_name": "Gagasmedia"
+  }
+]
+
+// Raditya%20Dika
+
+// MONGODB
+// db.bookshelflists.aggregate([
+//   {
+//       $lookup: {
+//           from: 'booklists',
+//           localField: 'book_collections',
+//           foreignField: '_id',
+//           as: 'lists_of_books',
+//       },
+//   },
+//   {
+//       $match: {
+//           lists_of_books: {
+//           $elemMatch: {
+//               book_title: 'Koala Kumal',
+//           },
+//       }
+//       }
+//   },
+// ])
