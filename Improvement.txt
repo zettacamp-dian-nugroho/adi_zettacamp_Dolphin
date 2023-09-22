@@ -1,0 +1,34 @@
+Harusnya di Bookshelfs Model buat key baru untuk mengumpulkan berbagai macam genre yang terdapat pada 1 Bookshelfs
+
+const UpdateBookshelfsDatas = async () => {
+  try {
+    const isHaveBookshelfsDatas = await Bookshelfs.find({});
+    const tempListBookshelfs = new Set();
+    for (const listbookshelfs of isHaveBookshelfsDatas) {
+      tempListBookshelfs.add(listbookshelfs.book_genre);
+    }
+
+    for (const nameListBookshelfs of tempListBookshelfs) {
+      const tempAllDocumentWithSameGenre = await Books.find({ book_genre: nameListBookshelfs });
+
+      const listBookSameGenre = new Array();
+      const listBookPublishers = new Array();
+      for (const listbooks of tempAllDocumentWithSameGenre) {
+        listBookSameGenre.push(listbooks._id);
+        const tempPublisher = {
+          publisher_name: listbooks.publisher_name,
+        };
+        listBookPublishers.push(tempPublisher);
+      }
+
+      await Bookshelfs.findOneAndUpdate(
+        { book_genre: nameListBookshelfs },
+        { $set: { $addtoset: { book_genre: nameListBookshelfs }, book_collections: listBookSameGenre, publishers: listBookPublishers } }
+      );
+    }
+
+    return `Berhasil update data buku!`;
+  } catch (error) {
+    return `Gagal update data! ${err}`;
+  }
+};
