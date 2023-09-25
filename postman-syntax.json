@@ -1,0 +1,85 @@
+[
+  {
+    "book_title": "Koala Kumal",
+    "book_genre": ["Komedi"],
+    "author": "Raditya Dika",
+    "publisher_name": "Gagasmedia",
+    "price_of_book": 54000,
+    "stock_of_book": 100
+  },
+
+  // /update-bookshelf/:id'
+  {
+    "book_genre": "Komedi"
+  },
+
+  // /update-bookshelf/publisher/:id/:publisher
+  {
+    "publisher_name": "Gagasmedia"
+  }
+],
+[
+  {
+  "book_title": "Koala Kumal",
+  "book_genre": ["Komedi", "Komedi", "Romance"],
+  "author": "Raditya Dika",
+  "publisher_name": "Gagasmedia",
+  "price_of_book": 54000,
+  "stock_of_book": 100
+},
+{
+  "book_title": "Cinta Brontosaurus",
+  "book_genre": ["Komedi", "Komedi", "Romance"],
+  "author": "Raditya Dika",
+  "publisher_name": "Gagasmedia",
+  "price_of_book": 42000,
+  "stock_of_book": 0
+},
+{
+  "book_title": "Marmut Merah Jambu",
+  "book_genre": ["Komedi", "Komedi", "Romance"],
+  "author": "Raditya Dika",
+  "publisher_name": "Gagasmedia",
+  "price_of_book": 66000,
+  "stock_of_book": 100
+},
+{
+  "book_title": "Harry Potta",
+  "book_genre": ["Horror", "Fantasi"],
+  "author": "JK Rowling",
+  "publisher_name": "Warner Bros",
+  "price_of_book": 123000,
+  "stock_of_book": 100
+},
+{
+  "book_title": "Titanix",
+  "book_genre": ["Komedi", "Romance", "Fantasi"],
+  "author": "Leonardo De Caprio",
+  "publisher_name": "US",
+  "price_of_book": 124300,
+  "stock_of_book": 100
+}
+]
+
+// Raditya%20Dika
+
+// MONGODB
+// db.bookshelflists.aggregate([
+//   {
+//       $lookup: {
+//           from: 'booklists',
+//           localField: 'book_collections',
+//           foreignField: '_id',
+//           as: 'lists_of_books',
+//       },
+//   },
+//   {
+//       $match: {
+//           lists_of_books: {
+//           $elemMatch: {
+//               book_title: 'Koala Kumal',
+//           },
+//       }
+//       }
+//   },
+// ])
